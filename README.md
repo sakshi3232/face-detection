@@ -1,66 +1,84 @@
-👀 Face Detection Application
+# 👁️ Face Detection using OpenCV
 
-📌 Overview
+This repository contains Python projects focused on **Face Detection** using **OpenCV**. The two main tasks involve detecting faces in **static images** and **real-time video** captured through a webcam.
 
-This project is a real-time face detection application using OpenCV. It detects facial features such as eyes, nose, and mouth using Haar Cascade classifiers and draws bounding boxes around them.
+---
 
-🌟 Features
-Real-time face detection using OpenCV and Haar cascades
-Feature detection for eyes, nose, and mouth
-Bounding box annotation with labels
-Real-time video stream processing
-Easy-to-use and lightweight implementation
+## 📁 Tasks
 
-🛠️ Technologies Used
-Python
-OpenCV
-Haar Cascade Classifiers
+### ✅ Task 1: Face Detection in Image  
+Detects faces in a static image using **Haar Cascade Classifier**.
 
-🚀 Getting Started
+**Features:**  
+- Uses **OpenCV** for face detection  
+- Processes an input image and draws rectangles around detected faces
 
-1️⃣ Clone the Repository:
-git clone <your-repo-link>
+---
 
-2️⃣ Install the Required Dependencies:
+### ✅ Task 2: Face Detection in Video  
+Detects faces in real-time through a webcam video stream.
+
+**Features:**  
+- Uses **OpenCV** to access webcam feed  
+- Continuously detects faces and draws bounding boxes around detected faces
+
+---
+
+## 🧠 Summary
+
+These projects showcase practical applications of **Python** and **OpenCV** for **Computer Vision**:
+
+- 🖼️ Image Processing & Face Detection  
+- 🎥 Real-Time Video Analysis  
+- 🤖 Object Detection using Haar Cascade Classifiers
+
+---
+
+## 📄 Requirements
+
+- Python 3.x
+- OpenCV
+
+### Install OpenCV:
+```bash
 pip install opencv-python
+```
 
-3️⃣ Ensure Haar Cascade XML Files Are Available:
-Make sure the following files are present in the project directory:
+## 🚀 How to Run
 
-haarcascade_frontalface_default.xml
-haarcascade_eye.xml
-Nariz.xml (for nose detection)
-Mouth.xml (for mouth detection)
+### ▶️ Detect faces in an image:
+```bash
+python detect_face_image.py
+```
 
-4️⃣ Run the Application:
-python face_detection.py
+Make sure to replace `test.jpg` with your image, and ensure `haarcascade_frontalface_default.xml` is in the same folder.
 
-5️⃣ Usage Instructions:
-The webcam will start, and faces will be detected in real-time.
-Press 'q' to quit the application.
+### 🎥 Detect faces in live video (webcam):
+```bash
+python detect_face_video.py
+```
 
-📊 How It Works
+Press the `ESC` key to stop the video stream.
 
-Captures real-time video feed from the webcam.
-Converts the frame to grayscale for efficient feature detection.
-Detects faces using the Haar Cascade classifier.
-If a face is detected, it further detects eyes, nose, and mouth.
-Draws bounding boxes around detected features.
-Displays the processed video in a new window.
+---
 
-🤝 Contributing
+## 📷 Example Output
 
-Contributions, issues, and feature requests are welcome! Feel free to open an issue if you encounter any problems.
+### Image Detection:
+An example of how faces are detected in a static image with bounding boxes.
 
-📜 License
+### Video Detection:
+Real-time detection of faces from the webcam feed.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+---
 
-👨‍💻 Author
+## 🙋‍♀️ Author
 
-Sanika Dudhal GitHub: @Saniikaa
+**Sakshi** – [GitHub Profile](https://github.com/sakshi3232)
 
-🙏 Acknowledgements
-OpenCV for providing easy-to-use computer vision tools
-Haar Cascades for facial feature detection
-⭐ If you find this project useful, please consider giving it a star to show your support!
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+```
