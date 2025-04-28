@@ -72,13 +72,13 @@ Real-time detection of faces from the webcam feed.
 
 ---
 
-## 🙋‍♀️ Author
+## 🔍 Features
 
-**Sakshi** – [GitHub Profile](https://github.com/sakshi3232)
+- 📷 Detect faces in any image using OpenCV
+- 🎥 Live face detection using a webcam feed
+- 🔲 Draws bounding boxes around detected faces
+- 💡 Easy to run and lightweight – just plug and play
+- 🧠 Based on Haar Cascade – a widely used object detection technique
+- 🛠️ Beginner-friendly and great for learning OpenCV basics
 
----
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-```
